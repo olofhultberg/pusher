@@ -31,6 +31,6 @@ app.post('/api/messages', async (req, res)=>{
 })
 
 
-console.log('Listening to port 8000');
+console.log('Listening to port 8080');
 
-app.listen(8000)
+app.listen(8080)
