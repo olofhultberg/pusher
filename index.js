@@ -30,7 +30,8 @@ app.post('/api/messages', async (req, res)=>{
     res.status(200).json([]);
 })
 
+const port = process.env.PORT || 8000
 
-console.log('Listening to port 8080');
+console.log(`Listening to port ${port}`);
 
-app.listen(8080)
+app.listen(port)
