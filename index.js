@@ -13,7 +13,7 @@ const pusher = new Pusher({
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:3000','http://localhost:8080' ]
+    origin: ['http://localhost:3000','http://localhost:8080', 'https://62717cfa7064fd0fcc28665f--wonderful-granita-7cd920.netlify.app' ]
 }))
 
 app.use(express.json());
